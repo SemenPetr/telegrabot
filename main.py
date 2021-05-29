@@ -9,6 +9,9 @@ def handle_text(message):
 
 	elif message.text == "Как ты?":
 		bot.send_message(message.from_user.id, "Нормально")
+
+	elif message.text == "Кто ты?":
+		bot.send_message(message.from_user.id, "Я телеграм-бот")
 	else:
 		return 0;
 
